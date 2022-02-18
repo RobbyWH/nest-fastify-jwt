@@ -1,0 +1,14 @@
+@hostname = http://localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+### GET USER
+POST {{host}}/jwt-token
+content-type: application/json
+
+{
+  "email": "robby.widyahartono@gmail.com",
+  "name": "robby widyahartono",
+  "scope": "user",
+  "external_id": "12345678",
+}
