@@ -7,8 +7,6 @@ const mockData = generateMockData({
   fileName: 'generateJWTToken',
   interfaces: ['GenerateJWTToken'],
 });
-const jwtToken =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIzMTMxMjMxMjMxMiJ9.eyJlbWFpbCI6Ik15cm9uX09sc29uMzlAaG90bWFpbC5jb20iLCJuYW1lIjoiTmF0YXNoYSBKYWNvYnMiLCJzY29wZSI6InVzZXIiLCJleHRlcm5hbF9pZCI6ImJmYzhjYjYyLWM2Y2UtNDE5NC1hMmE1LTQ5OTMyMGI4MzdlYiIsImlhdCI6MTY0NTE2NDk0OX0.KqKqrzZtfisBHUWAIRIe83Q79W1TPugTVW7jm5R868Y';
 
 describe('app Service', () => {
   let appService: AppService;

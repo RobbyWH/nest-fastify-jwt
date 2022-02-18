@@ -10,5 +10,5 @@ content-type: application/json
   "email": "robby.widyahartono@gmail.com",
   "name": "robby widyahartono",
   "scope": "user",
-  "external_id": "12345678",
+  "external_id": "12345678"
 }

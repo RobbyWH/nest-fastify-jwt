@@ -1,4 +1,4 @@
-import { Controller, Get, Body } from '@nestjs/common';
+import { Controller, Post, Get, Body } from '@nestjs/common';
 import { AppService } from './app.service';
 import { GenerateJWTTokenDto } from './dtos/requests/GenerateJWTToken.dto';
 
@@ -11,7 +11,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('jwt-token')
+  @Post('jwt-token')
   generateJWTToken(@Body() body: GenerateJWTTokenDto): string {
     return this.appService.generateJWTToken(body);
   }
